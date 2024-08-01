@@ -1,0 +1,136 @@
+(footprint "MET-46-T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.302 -4.953 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ff204da-8e6e-4b42-9de1-d3f2ea3a1b04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MET-46-T"
+		(at 0 -0.762 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3877cb57-e7f2-45ad-9a3a-a6bc3ebc9272")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a58ccdc1-2040-4a68-a9ea-e06a92b8deed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12c9a50d-25c5-44a2-a988-3d97f7b12392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6446587-4fe1-444b-98d5-8e944cc70933")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.207 -3.937)
+		(end 5.207 3.937)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d6961d92-693d-448d-a891-4fd8dbbe1a25")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.016 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7bc1b099-8263-4211-a8f1-5ff63ce510bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 -2.54)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40f7cd55-4fee-4a48-8373-38b90b670392")
+	)
+	(pad "2" thru_hole circle
+		(at -3.81 2.54)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2cf7dfc-614f-490a-9e4c-5430074bc768")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 2.54)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c77d8ad8-c146-4fdf-b6f9-3f25560216a1")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 -2.54)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8db991eb-0104-4499-89ec-86b73cc6fc17")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Custom_Transformer_THT.3dshapes/MET-46-T.step"
+		(offset
+			(xyz 0 0 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
