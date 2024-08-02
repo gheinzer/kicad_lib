@@ -33,7 +33,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1103/LM323.pdf"
 			(at -2.54 7.62 0)
 			(effects
 				(font
@@ -51,7 +51,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TO-220-3* TO-3*"
+		(property "ki_fp_filters" "TO-220-3* TO-3"
 			(at 0 0 0)
 			(effects
 				(font
