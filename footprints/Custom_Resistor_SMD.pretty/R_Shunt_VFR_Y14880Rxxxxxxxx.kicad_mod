@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -227,6 +230,17 @@
 			(pts
 				(xy -2.2098 -4.6482) (xy 2.2098 -4.6482) (xy 2.2098 4.6482) (xy -2.2098 4.6482)
 			)
+		)
+	)
+	(model "${KICAD8_CUSTOM_LIB_DIR}/3dmodels/Custom_Resistor_SMD.3dshapes/R_Shunt_VFR_Y14880Rxxxxxxxx.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )
